@@ -23,6 +23,8 @@ class TestCountVowels(unittest.TestCase):
         self.assertEqual(count_vowels("Hello, World!"), 3)
         self.assertEqual(count_vowels("Python is awesome"), 6)
         self.assertEqual(count_vowels(""), 0)
+        #self.assertEqual(count_vowels("AEIOUai=eiou"), 10)
+        #self.assertEqual(count_vowels("bcdfg"), 0)
 
 if __name__ == "__main__":
     unittest.main()
